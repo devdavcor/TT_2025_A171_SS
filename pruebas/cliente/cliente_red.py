@@ -1,8 +1,7 @@
 import socket
 from pathlib import Path
 
-# Reemplaza 'IP_DEL_SERVIDOR' con la IP de la máquina donde está corriendo el servidor
-HOST = '192.168.0.229'  # Ej. '192.168.1.100'
+HOST = '192.168.0.229'
 PORT = 5001
 ARCHIVO_SALIDA = Path(__file__).parent / "imagen_recibida.jpg"
 
